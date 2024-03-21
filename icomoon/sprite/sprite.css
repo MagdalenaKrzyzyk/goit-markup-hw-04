@@ -1,0 +1,76 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-antena {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-komp {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-kosmonauta {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-Logo1 {
+  width: 59px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-Logo2 {
+  width: 59px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-Logo3 {
+  width: 59px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.icon-Logo4 {
+  width: 59px;
+  height: 32px;
+  background-position: -432px 0;
+}
+.icon-Logo5 {
+  width: 59px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.icon-Logo6 {
+  width: 59px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.icon-zegar {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.icon-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -96px;
+}
+.icon-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -96px;
+}
+.icon-linkedin2 {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -96px;
+}
+
