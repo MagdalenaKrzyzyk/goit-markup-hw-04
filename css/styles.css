@@ -88,12 +88,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .circle:hover {
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 .circle:focus {
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 .circle-list {
   width: 40px;
@@ -276,6 +277,20 @@ img {
   display: flex;
   align-items: center;
 }
+.nav-link {
+  position: relative;
+  color: var(--ocean);
+}
+.nav-link:after {
+  content: "";
+  width: 100%;
+  bottom: -1px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  background-color: var(--ocean);
+  border-radius: 2px;
+}
 .photo-title {
   font-weight: 500;
   font-size: 20px;
@@ -304,15 +319,21 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-element:hover {
+  transform: "";
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .photo-portfolio {
   position: absolute;
-  overflow: auto;
+  overflow: hidden;
+}
+.photo-portfolio:hover {
+  visibility: visible;
 }
 .photo-portfolio-paragraf {
-  top: ;
+  position: relative;
+  visibility: hidden;
+  top: 0px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
